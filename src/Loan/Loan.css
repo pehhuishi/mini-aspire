@@ -1,0 +1,52 @@
+.loan{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 350px;
+  transform: translate(-50%,-60%);
+  background: rgba(255,255,255,0.75);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.loan form{
+  max-width: 280px;
+}
+.loan h2{
+  margin-top: -6px;
+  margin-bottom: 25px;
+}
+.loan h2,p{
+  color: #ACE9FE;
+}
+.loan p{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.loan p:first-child{
+  padding-top: 30px;
+}
+.loan input,.loan button{
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #ACE9FE;
+}
+.loan button{
+  margin-top: 15%;
+  width: 109%;
+  background-color: #ACE9FE;
+  color:white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.loan button:hover{
+  box-shadow: 2px 3px #D3D3D3;
+  cursor: pointer;
+}
